@@ -9,7 +9,7 @@ $(document).ready(() => {
     const bgcolor = $('#backgroundcolor').val()
     ctx.fillStyle = bgcolor
     ctx.fillRect(0, 0, 506, 263)
-    ctx.font = "48px serif"
+    ctx.font = "48px sans-serif"
     ctx.fillStyle = fcolor
     ctx.textAlign = "left"
     ctx.textBaseline = "top"
